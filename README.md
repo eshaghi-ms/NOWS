@@ -20,6 +20,20 @@ NOWS is **solver-agnostic** and **discretization-agnostic**, integrating seamles
 Across diverse PDEs (Poisson, Darcy, Burgers, elasticity, Navier–Stokes), NOWS consistently achieves **25–90% runtime reduction**, demonstrating strong generalization across geometries, resolutions, and physical systems.
 
 ---
+## NOWS framework (high-level)
+
+<p align="center">
+  <img src="docs/figs/workflow.pdf" width="700">
+</p>
+
+*Workflow concept:*  
+Neural operator → produces an initial guess → classical solver only needs to do the *fine* iterations → same accuracy, much lower cost.
+
+<p align="center">
+  <img src="docs/figs/dynamic.pdf" width="700">
+</p>
+
+---
 
 ## Repository status
 
