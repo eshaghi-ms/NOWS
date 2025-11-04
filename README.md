@@ -29,6 +29,71 @@ The **code and data will be made publicly available after the journal review pro
 
 ---
 
+## Abstract (summary)
+
+Partial differential equations (PDEs) are the foundation of computational science and engineering, yet high-fidelity simulations remain computationally demanding.  
+NOWS introduces a hybrid paradigm that leverages neural operator predictions to warm-start traditional iterative solvers.  
+The neural operator rapidly provides an accurate initial guess, and the classical solver completes convergence.  
+This hybridization achieves substantial speed-ups (up to 90%), retains full accuracy, and is compatible with any existing solver infrastructure.  
+By combining the rapid inference of learned operators with the rigor of numerical solvers, NOWS offers a practical and trustworthy path toward accelerating high-fidelity PDE simulations.
+
+---
+
+## Key features
+
+- 🚀 **Acceleration:** Reduces iteration count and runtime by up to 90%.
+- 🧠 **Physics-consistent learning:** Can use data-driven, physics-informed, or hybrid training.
+- ⚙️ **Solver-agnostic:** Works with CG, GMRES, and other Krylov or multigrid methods.
+- 🧩 **Discretization-independent:** Supports FEM, FDM, IGA, and FVM backends.
+- 🗺️ **Generalization:** Robust to mesh refinement, geometry variation, and PDE type.
+- 🧮 **No modification needed:** Integrates directly with existing solvers.
+
+---
+
+## Project structure (will be available upon release)
+
+NOWS/
+│
+├── nows/                  # Core implementation
+│   ├── models/            # Neural operator architectures (FNO, VINO, etc.)
+│   ├── solvers/           # Interfaces to iterative solvers (CG, GMRES, ...)
+│   ├── utils/             # Helper functions and data utilities
+│   └── training/          # Physics-informed and data-driven training scripts
+│
+├── experiments/           # Reproducible benchmark setups
+│   ├── poisson/           
+│   ├── darcy/
+│   ├── elasticity/
+│   ├── burgers/
+│   └── smoke_plume/
+│
+├── data/                  # Sample or synthetic datasets
+│
+├── notebooks/             # Interactive demos
+│
+├── results/               # Plots, figures, and numerical comparisons
+│
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+
+## Contact
+
+For questions or collaboration inquiries:
+
+- **Mohammad Sadegh Eshaghi** — eshaghi.khanghah@iop.uni-hannover.de  
+- **Cosmin Anitescu** — cosmin.anitescu@uni-weimar.de  
+
+---
+
+## Acknowledgments
+
+The authors acknowledge the support of:
+
+- The **German Academic Exchange Service (DAAD)**
+- The **Compute Servers of TU Ilmenau** for providing computational resources.
+- 
 ## Paper citation
 
 If you use or refer to this work, please cite:
@@ -38,5 +103,5 @@ If you use or refer to this work, please cite:
   title={Neural Operator Warm Starts for Accelerating Iterative Solvers},
   author={Eshaghi, Mohammad Sadegh and Anitescu, Cosmin and Valizadeh, Navid and Wang, Yizheng and Zhuang, Xiaoying and Rabczuk, Timon},
   year={2025},
-  journal={TBD}
+  journal={...}
 }
