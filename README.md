@@ -23,14 +23,14 @@ Across diverse PDEs (Poisson, Darcy, Burgers, elasticity, Navier–Stokes), NOWS
 ## NOWS framework (high-level)
 
 <p align="center">
-  <img src="docs/figs/workflow.pdf" width="700">
+  <img src="docs/figs/workflow.png" width="700">
 </p>
 
 *Workflow concept:*  
 Neural operator → produces an initial guess → classical solver only needs to do the *fine* iterations → same accuracy, much lower cost.
 
 <p align="center">
-  <img src="docs/figs/dynamic.pdf" width="700">
+  <img src="docs/figs/dynamic.png" width="700">
 </p>
 
 ---
