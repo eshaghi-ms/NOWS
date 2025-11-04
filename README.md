@@ -53,28 +53,51 @@ By combining the rapid inference of learned operators with the rigor of numerica
 ## Project structure (will be available upon release)
 
 NOWS/
+
 │
+
 ├── nows/                  # Core implementation
+
 │   ├── models/            # Neural operator architectures (FNO, VINO, etc.)
+
 │   ├── solvers/           # Interfaces to iterative solvers (CG, GMRES, ...)
+
 │   ├── utils/             # Helper functions and data utilities
+
 │   └── training/          # Physics-informed and data-driven training scripts
+
 │
+
 ├── experiments/           # Reproducible benchmark setups
-│   ├── poisson/           
+
+│   ├── poisson/
+
 │   ├── darcy/
+
 │   ├── elasticity/
+
 │   ├── burgers/
+
 │   └── smoke_plume/
+
 │
+
 ├── data/                  # Sample or synthetic datasets
+
 │
+
 ├── notebooks/             # Interactive demos
+
 │
+
 ├── results/               # Plots, figures, and numerical comparisons
+
 │
+
 ├── LICENSE
+
 ├── README.md
+
 └── requirements.txt
 
 
