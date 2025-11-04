@@ -23,7 +23,7 @@ Across diverse PDEs (Poisson, Darcy, Burgers, elasticity, Navier–Stokes), NOWS
 ## NOWS framework (high-level)
 
 <p align="center">
-  <img src="docs/figs/workflow.png" width="700">
+  <img src="docs/figs/flowchart.png" width="700">
 </p>
 
 *Workflow concept:*  
