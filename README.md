@@ -121,6 +121,7 @@ For questions or collaboration inquiries:
 
 - **Mohammad Sadegh Eshaghi** — eshaghi.khanghah@iop.uni-hannover.de  
 - **Cosmin Anitescu** — cosmin.anitescu@uni-weimar.de  
+- **Timon Rabczuk** — timon.rabczuk@uni-weimar.de  
 
 ---
 
