@@ -141,5 +141,5 @@ If you use or refer to this work, please cite:
   title={Neural Operator Warm Starts for Accelerating Iterative Solvers},
   author={Eshaghi, Mohammad Sadegh and Anitescu, Cosmin and Valizadeh, Navid and Wang, Yizheng and Zhuang, Xiaoying and Rabczuk, Timon},
   year={2025},
-  journal={...}
+  journal={https://doi.org/10.48550/arXiv.2511.02481}
 }
