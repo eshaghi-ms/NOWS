@@ -131,7 +131,7 @@ The authors acknowledge the support of:
 
 - The **German Academic Exchange Service (DAAD)**
 - The **Compute Servers of TU Ilmenau** for providing computational resources.
-- 
+  
 ## Paper citation
 
 If you use or refer to this work, please cite:
