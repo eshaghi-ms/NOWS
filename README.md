@@ -3,6 +3,7 @@
 This repository accompanies the paper:
 
 **NOWS: Neural Operator Warm Starts for Accelerating Iterative Solvers**
+*Published in Computer Methods in Applied Mechanics and Engineering (CMAME)*
 
 ---
 
@@ -37,9 +38,11 @@ Neural operator → produces an initial guess → classical solver only needs to
 
 ## Repository status
 
-The **code and data will be made publicly available after the journal review process is complete.**
+✅ **The paper has been published in CMAME!**
 
-👉 **Please ⭐ star this repository** to get notified automatically when the public release is published.
+The code and data are now publicly available in this repository.
+
+👉 **Please ⭐ star this repository** to stay updated with new features and improvements.
 
 ---
 
@@ -63,57 +66,6 @@ By combining the rapid inference of learned operators with the rigor of numerica
 - 🧮 **No modification needed:** Integrates directly with existing solvers.
 
 ---
-
-## Project structure (will be available upon release)
-
-NOWS/
-
-│
-
-├── nows/                  # Core implementation
-
-│   ├── models/            # Neural operator architectures (FNO, VINO, etc.)
-
-│   ├── solvers/           # Interfaces to iterative solvers (CG, GMRES, ...)
-
-│   ├── utils/             # Helper functions and data utilities
-
-│   └── training/          # Physics-informed and data-driven training scripts
-
-│
-
-├── experiments/           # Reproducible benchmark setups
-
-│   ├── poisson/
-
-│   ├── darcy/
-
-│   ├── elasticity/
-
-│   ├── burgers/
-
-│   └── smoke_plume/
-
-│
-
-├── data/                  # Sample or synthetic datasets
-
-│
-
-├── notebooks/             # Interactive demos
-
-│
-
-├── results/               # Plots, figures, and numerical comparisons
-
-│
-
-├── LICENSE
-
-├── README.md
-
-└── requirements.txt
-
 
 ## Contact
 
@@ -141,5 +93,7 @@ If you use or refer to this work, please cite:
   title={Neural Operator Warm Starts for Accelerating Iterative Solvers},
   author={Eshaghi, Mohammad Sadegh and Anitescu, Cosmin and Valizadeh, Navid and Wang, Yizheng and Zhuang, Xiaoying and Rabczuk, Timon},
   year={2025},
-  journal={https://doi.org/10.48550/arXiv.2511.02481}
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  publisher={Elsevier},
+  note={arXiv preprint: https://doi.org/10.48550/arXiv.2511.02481}
 }
