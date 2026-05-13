@@ -40,7 +40,10 @@ Neural operator → produces an initial guess → classical solver only needs to
 
 ✅ **The paper has been published in CMAME!**
 
-The code and data are now publicly available in this repository.
+The code is now publicly available in this repository.
+
+📊 **Datasets can be downloaded from:**
+https://seafile.cloud.uni-hannover.de/d/c05978d8edd6428398e5/
 
 👉 **Please ⭐ star this repository** to stay updated with new features and improvements.
 
